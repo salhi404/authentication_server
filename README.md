@@ -1,11 +1,20 @@
-# starter-express-api
+# Node.js Express Login and Registration example with MongoDB and JWT
 
-This is the simplest possible nodejs api using express that responds to any request with: 
+- Appropriate Flow for User Login and Registration with JWT and Cookies
+- Node.js Express Architecture with CORS, Authentication & Authorization middlewares & Sequelize
+- How to configure Express routes to work with JWT
+- How to define Data Models and association for Authentication and Authorization
+- Way to use Sequelize to interact with MySQL Database
+
+## User Registration, User Login and Authorization process.
+The diagram shows flow of how we implement User Registration, User Login and Authorization process.
+
+## Project setup
 ```
-Yo!
+npm install
 ```
 
-### Deploy it in 7 seconds: 
-
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
-
+### Run
+```
+node server.js
+```
